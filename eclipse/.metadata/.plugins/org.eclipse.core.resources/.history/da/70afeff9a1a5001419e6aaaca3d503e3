@@ -1,0 +1,87 @@
+package net.craftoflegends.mod;
+
+import net.craftoflegends.mod.blocks.CopperOre;
+import net.craftoflegends.mod.items.COLItems;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+
+
+@Mod(modid = CraftofLegends.modid, version = CraftofLegends.version)
+public class CraftofLegends {
+	
+	public static final String modid = "CraftofLegends";
+	public static final String version = "0.0.1";
+	
+	//Items
+	public static Item itemBronzeIngot;
+	public static Item itemCopperIngot;
+	public static Item itemCrystalShard;
+	public static Item itemManganeseIngot;
+	public static Item itemPainisteelIngot;
+	public static Item itemPainiteGem;
+	public static Item itemSteelIngot;
+	public static Item itemTinIngot;
+	public static Item itemVanisteelIngot;
+	public static Item itemVaniteGem;
+	
+	//Blocks
+	public static Block oreCopperOre;
+	
+	@EventHandler
+	public void PreInit(FMLPreInitializationEvent preEvent){
+		
+		//Names
+		
+		//Blocks
+		oreCopperOre = new CopperOre(Material.rock).setBlockName("CopperOre");
+		
+		//Items
+		itemBronzeIngot = new COLItems().setUnlocalizedName("BronzeIngot");
+		itemCopperIngot = new COLItems().setUnlocalizedName("CopperIngot");
+		itemCrystalShard = new COLItems().setUnlocalizedName("CrystalShard");
+		itemManganeseIngot = new COLItems().setUnlocalizedName("ManganeseIngot");
+		itemPainisteelIngot = new COLItems().setUnlocalizedName("PainisteelIngot");
+		itemPainiteGem = new COLItems().setUnlocalizedName("PainiteGem");
+		itemSteelIngot = new COLItems().setUnlocalizedName("SteelIngot");
+		itemTinIngot = new COLItems().setUnlocalizedName("TinIngot");
+		itemVanisteelIngot = new COLItems().setUnlocalizedName("VanisteelIngot");
+		itemVaniteGem = new COLItems().setUnlocalizedName("VaniteGem");
+		
+		//Registry
+		
+		//Blocks
+		GameRegistry.registerBlock(oreCopperOre, "CopperOre")
+		
+		//Items
+		GameRegistry.registerItem(itemBronzeIngot, "BronzeIngot");
+		GameRegistry.registerItem(itemCopperIngot, "CopperIngot");
+		GameRegistry.registerItem(itemCrystalShard, "CrystalShard");
+		GameRegistry.registerItem(itemManganeseIngot, "ManganeseIngot");
+		GameRegistry.registerItem(itemPainisteelIngot, "PainisteelIngot");
+		GameRegistry.registerItem(itemPainiteGem, "PainiteGem");
+		GameRegistry.registerItem(itemSteelIngot, "SteelIngot");
+		GameRegistry.registerItem(itemTinIngot, "TinIngot");
+		GameRegistry.registerItem(itemVanisteelIngot, "VanisteelIngot");
+		GameRegistry.registerItem(itemVaniteGem, "VaniteGem");
+		
+	}
+	
+	@EventHandler
+	public void Init(FMLInitializationEvent event){
+		
+	}
+	
+	@EventHandler
+	public void PostInit(FMLPostInitializationEvent postEvent){
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.CraftofLegends"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.ManganeseOre"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.PainiteOre"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.VaniteOre"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.TinOre"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.BronzeBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.CrystalBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.ManganeseBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.PainiteBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.SteelBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.TinBlock"/>
+<fullyQualifiedTypeName name="net.craftoflegends.mod.blocks.VaniteBlock"/>
+</qualifiedTypeNameHistroy>
